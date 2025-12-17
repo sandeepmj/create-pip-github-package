@@ -47,16 +47,7 @@ I'm calling this repo:
 
 ### Clone using GitHub Desktop
 
-You may clone the repo via GitHub Desktop, but we will need to use the Mac terminal next to create a virtual environment. No way around that.
-
-### Clone via Command Line
-
-
-```bash
-git clone git@github.com:YOUR_USERNAME/my-installs.git
-cd my-installs
-```
-
+Clone the repo via GitHub Desktop. Make sure to clone it into your dataProjects folder.
 
 ---
 
