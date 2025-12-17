@@ -31,12 +31,13 @@ On GitHub:
 - Create a **new repository**:
 - Give it a succinct and meaningful name (no more than 2 words)
 - Private or public is fine, **but perhaps this time keep it private**.
-- **Do NOT** add a README, `.gitignore`, or license
+- Add a ```README```, `.gitignore`, and a license
 
+I'm calling this repo:
   ```
   my-installs
   ```
-- you can call it anything you want, but ** note that I am using ```my-install`` and will keep it consistent throughout.
+- you can call it anything you want, but ** note that I am using `my-install` and will keep it consistent throughout.
 
 
 
