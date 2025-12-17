@@ -3,10 +3,11 @@
 This guide shows **the clean, repeatable way** to create a **private Python package**, push it to GitHub, and install it via `pip` (including from Jupyter).
 
 ## What you will need
-1. GitHub Desktop or Terminal Command Line
-2. A function you want to work with
-3. VS Code
-4. IPythonNotebook
+1. GitHub Desktop
+2. Terminal Command Line
+3. A function or two you want to work with (examples provided here)
+4. VS Code
+5. IPythonNotebook (Jupyter Notebook)
 
 ---
 
