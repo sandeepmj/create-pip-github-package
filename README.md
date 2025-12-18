@@ -92,25 +92,12 @@ and you should see the expected output.
 
 ** Careful here: I often mess it up by ignoring this step. Note the **underscores** I am making for a new directory called ```my_installs``` inside the project folder called ```my-installs```.
 
-The following command line makes a directory (mkdir) and then moves us into that director: 
-
-```bash
-mkdir my_installs
-cd my_installs
-```
-
-Inside `my_installs/`, create ```__init__.py``` :
-
-```bash
-touch __init__.py
-code __init__.py
-```
-
-Here `touch` creates the file, and `code` opens it in VS Code.
+- Navigate into your `my-install` folder in `dataProjects` and create a new folder called ```my_installs```.
+- Open VS Code/Sublime or any code editor and create a new file and save it as ```__init__.py``` NOTE: these are two sets of 2 underscores that surround `init` INSIDE `my_installs`. Again please note that it is being saved inside of my_installs (with the underscore) which is inside my-installs (with the hyphen).
 
 ---
 
-## 5. Add Package Code
+## 5. Add Package Code into your __init__.py file
 
 
 Paste the following into `my_installs/__init__.py`:
@@ -142,15 +129,10 @@ def timer(start_time, end_time):
 
 ## 6. Create `pyproject.toml`
 
-Back out of the `my_installs` directory into the main `my-installs` directory (note the underscore v. the hyphen).
+- Using VS code or Sublime or any code editor, create a new file and save it as `pyproject.toml` into **`my-installs`** NOT into `my_installs`. **Again note the underscore v. the hyphen!**
+- 
 
-Create `pyproject.toml` in the **project root**:
-
-```bash
-cd ..
-touch pyproject.toml
-code pyproject.toml
-```
+Paste this code into `pyproject.toml` and hit save again.
 
 ```toml
 [build-system]
@@ -164,7 +146,7 @@ description = "Small helper utilities"
 requires-python = ">=3.8"
 
 authors = [
-  { name = "Your Name" }
+  { name = "Your Name" } # REMEMBER TO PUT YOUR OWN NAME
 ]
 
 [tool.setuptools]
