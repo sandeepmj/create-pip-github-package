@@ -163,13 +163,11 @@ line 16 with the name of your package **(note the underscore v. the hyphen)**.
 
 ## 7. Add `.gitignore`
 
-Create `.gitignore`:
+- Recall that `.gitignore` is a hidden file. While inside your `my-install` folder, click on **Command + Shift + Period (.)** to reveal it.
+- Double click on it to open it. It doesn't matter what it opens into.
 
-```bash
-touch .gitignore
-code .gitignore
-```
-Add the following to it and save it:
+
+Copy and paste the following into by replacing all the text in the file:
 
 ```gitignore
 venv/
@@ -180,9 +178,11 @@ __pycache__/
 .DS_Store
 ```
 
+- Save it.
 ---
 
 ## 8. Build Your Package
+**In all the following steps, if you throw an error, try `pip3` instead of `pip`.**
 
 Install build tools:
 
@@ -222,7 +222,8 @@ pip install --force-reinstall dist/my_installs-0.1.0-py3-none-any.whl
 ```
 
 
-Test:
+## 9. Test:
+Back in terminal, copy and paste the following. This both imports one of the functions and runs it.
 
 ```bash
 python -c "from my_installs import addNumbers; print(addNumbers(2,3))"
@@ -236,13 +237,13 @@ Expected output:
 
 ---
 
-## 9. Commit and Push to GitHub
+## 10. Commit and Push to GitHub
 
 Use GitHub Desktop to commit and push your repo to GitHub.com.
 
 ---
 
-## 10. Using from Jupyter Notebook
+## 11. Using from Jupyter Notebook
 
 **Important:** The notebook kernel **must use the same Python environment**.
 
