@@ -268,7 +268,15 @@ Inside a notebook cell (remember to update `YOUR_USERNAME` to your GitHub userna
 !pip install git+ssh://git@github.com/YOUR_USERNAME/my-installs.git
 ```
 
-Then:
+#### Got some error? Try Rhyannon's solution:
+
+When she got an `git+ssh` threw an error, she ran this in a Jupyter cell:
+
+```
+import sys
+!{sys.executable} -m pip install git+https://github.com/YOUR-ACCOUNT/my-installs.git
+```
+Once it is installed, import and run your function!
 
 ```python
 from my_installs import addNumbers
