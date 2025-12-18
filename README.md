@@ -53,6 +53,21 @@ Clone the repo via GitHub Desktop. Make sure to clone it into your dataProjects 
 
 ## 3. Create and Activate a Virtual Environment
 
+Through your Mac terminal, navigate to `dataProjects`. If you have it in your root directory, simply copy and paste the following:
+
+```bash
+cd dataProject/my-installs
+```
+
+If you have have `dataProject` is some other location, do the following:
+- Hold down the Option (⌥) key
+- Right-click on the file or folder
+- Select "Copy [filename] as Pathname"
+- In your terminal, write `cd ` and paste what your path.
+
+In either case, you should be inside your `my-installs` directory.
+Run the following:
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
